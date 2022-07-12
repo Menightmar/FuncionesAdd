@@ -2,4 +2,4 @@
 # FuncionesAdd
 Funciones.
 
-# Funciones.
+# Funciones normales.
