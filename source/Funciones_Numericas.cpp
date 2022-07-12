@@ -9,9 +9,11 @@
 
 Numericos Sumador::Suma (const Numericos & Valores_A , const Numericos & Valores_B) {
 	
-	// Creamos un nuevo númerico.
+	// Creamos un nuevo nÃºmerico.
 	
 	Numericos Resultado (0.0 , 0.0);
+	
+	// Comentario 2.
 	
 	// Asignaremos la suma en cada valor.
 	
@@ -21,9 +23,17 @@ Numericos Sumador::Suma (const Numericos & Valores_A , const Numericos & Valores
 	
 	Resultado.Set_Num_2 (Valores_A.Get_Num_2 () + Valores_B.Get_Num_2 ());
 	
-	// Devolvemos el resultado.
+	int Numero = 200 , Azulejo = 100;
+	
+	// Impresiones.
+	
+	printf ("Resultados : %i , %i \n" , Resultado.Get_Num_1 () , Resultado.Get_Num_2 ());
+	
+	// Devolvemos el resultado actualizado.
 	
 	return Resultado;
+	
+	// Normal Meni.
 	
 }
 
@@ -31,7 +41,7 @@ Numericos Sumador::Suma (const Numericos & Valores_A , const Numericos & Valores
 
 Numericos Restador::Resta (const Numericos & Valores_A , const Numericos & Valores_B) {
 	
-	// Creamos un nuevo númerico.
+	// Creamos un nuevo nÃºmerico.
 	
 	Numericos Resultado (0.0 , 0.0);
 	
@@ -43,6 +53,10 @@ Numericos Restador::Resta (const Numericos & Valores_A , const Numericos & Valor
 	// Asignaremos la resta en cada valor.
 	
 	Resultado.Set_Num_2 (Valores_A.Get_Num_2 () - Valores_B.Get_Num_2 ());
+	
+	// Impresiones.
+	
+	printf ("Resultados : %i , %i \n" , Resultado.Get_Num_1 () , Resultado.Get_Num_2 ());
 	
 	// Devolvemos el resultado.
 	
