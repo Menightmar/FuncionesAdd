@@ -11,6 +11,8 @@ Numericos Sumador::Suma (const Numericos & Valores_A , const Numericos & Valores
 	
 	// Creamos un nuevo númerico.
 	
+	
+	
 	Numericos Resultado (0.0 , 0.0);
 	
 	// Asignaremos la suma en cada valor.
