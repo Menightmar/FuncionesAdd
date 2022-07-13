@@ -9,7 +9,7 @@
 
 Numericos Sumador::Suma (const Numericos & Valores_A , const Numericos & Valores_B) {
 	
-	// Creamos un nuevo númerico.
+	// Creamos un nuevo númerico 2.
 	
 	
 	
